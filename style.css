@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+
 body {
     margin: 0;
 }
@@ -10,9 +12,10 @@ a {
 
 .header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 361px;
+    padding-right: 50px;
+    padding-left: 366px;
     background-color: black;
 }
 
@@ -35,4 +38,27 @@ a {
 
 .search img {
     margin-right: 10px;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    margin: 35px 50px;
+}
+
+.link-group {
+    height: fit-content;
+    width: fit-content;
+}
+
+.main-links {
+    display: grid;  
+    gap: 75px;
+    width: min-content;
+    grid-template-columns: auto auto min-content;  
+}
+
+.link-group h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
 }
