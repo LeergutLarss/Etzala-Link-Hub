@@ -40,25 +40,21 @@ a {
     margin-right: 10px;
 }
 
-.body {
+.main-body {
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    margin: 35px 50px;
+    gap: 0 75px;
 }
 
-.link-group {
-    height: fit-content;
-    width: fit-content;
-}
-
-.main-links {
-    display: grid;  
-    gap: 75px;
-    width: min-content;
-    grid-template-columns: auto auto min-content;  
+.link-group li {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    margin-bottom: 5px;
 }
 
 .link-group h2 {
     font-family: 'Roboto Mono', monospace;
-    font-size: 12px;
+    font-size: 14px;
+    border-bottom: 1px solid;
 }
